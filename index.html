@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>이정표 없는 항해 일지</title>
+	
+	<style type="text/css">
+
+		@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+    
+		@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;}
+
+		@font-face {
+    font-family: 'Pretendard-Black';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: bold;}
+
+    	@font-face {
+    font-family: 'ClimateCrisisKR-1979';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKR-1979.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;}
+
+    	@font-face {
+    font-family: 'TTHakgyoansimMulgyeolB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+    
+		html{font-family: 'Pretendard-Regular';line-height: 1.5}
+		body,h1,p,h2,div{margin: 0}
+		body{background: url(back-sea.jpg);
+			background-size: cover;
+			background-attachment: fixed;}
+		header,footer{padding-top:100px; width:1000px; margin: auto;}
+		footer{padding-bottom: 100px;}
+		section{padding-top: 30px;}
+		.wrap{width: 1000px; margin: auto;}
+		h1{font-family: 'TTHakgyoansimMulgyeolB';
+			font-weight: 800;
+			font-size:3.8rem;
+			color: white;}
+		h2{font-family: 'TTHakgyoansimMulgyeolB';font-weight: 800;font-size:3rem;padding: 60px 20px 10px;line-height: 1.2}
+		p{font-size:1.2rem;
+			padding-top: 5px;
+			padding-bottom: 40px;
+			padding-left: 20px;
+			line-height: 1.75;
+	    	word-break: keep-all;
+	    	word-spacing: -1px;
+	    	}
+		img{width: 100%;display: block;}
+		.left-spacing{padding-left: 300px;}
+		.right-spacing{padding-right: 400px;}
+		.center-spacing{padding-left: 200px;padding-right: 200px;text-align: center;}
+		.black{background: black;}
+		.black h2{color:white;}
+		.black p{color: white;}
+		.black h1{color: white;}
+		.mediumseagreen{background: mediumseagreen;}
+		.mediumseagreen h2{color: white;}
+		.flex{display: flex;
+			flex-wrap: wrap;
+			padding: 50px 0px;
+			gap:2%;}
+		.flex div{width: 30%;}
+		.flex div h2{font-size: 30px;}
+		.flex div div{width: 100%; height: 180px;}
+		.col-2{width: 400px;
+		    margin: 0px 10px;}
+		nav{color: white;
+			padding: 10px 0px;}
+		nav .menu{display: flex;
+			width: 400px;}
+		nav .menu li{width: 33.3%;
+			list-style-type: none;}
+		nav .menu li a{
+			text-align: center;
+			padding: 12px 0px;
+			display: block;
+			text-decoration: none;
+			color:white;}
+		nav .menu li a:hover{background: white;
+			color: black;}
+		.menuflex{display:flex;
+			justify-content: space-between;}
+		.logo{padding: 20px 0px;}
+		.blue{background: blue;}
+		.ivory{background: ivory;}
+		.font-white{color: white;text-shadow: black 50%;}
+		ul{display: flex;}
+		div{display: block;}
+		.row {
+		    height: 300px;
+		    display: flex;
+		    padding: 0px 5px;
+			}
+		.column{width: 600px; flex-direction: column;}
+		.container{display: flex;
+			height: 300px;
+			border: 10px;
+			}
+		.small-subject{font-size:14px;color: white;padding-top: 1%;}
+		.column-textbox{width: 600px;}
+		.text-emphasize{font-size: 30px;
+			font-family: 'Pretendard-Black';padding-left: 300px;}
+		.text-bold{font-family: 'Pretendard-Black';}
+	</style>
+</head>
+<body>
+<nav>
+	<div class="wrap menuflex">
+		<div class="logo">
+			MY Life
+		</div>
+		<ul class="menu">
+			<li>
+				<a href="#aaa">양화대교</a>
+			</li>
+			<li>
+				<a href="#bbb">안선생님</a>
+			</li>
+			<li>
+				<a href="#ccc">인생이</a>
+			</li>
+			<li>
+				<a href="#ddd">알이즈웰</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+	<header>
+		<div class="wrap">
+			<h1 class="center-spacing">이정표 없는 항해일지</h1>
+			<p class="center-spacing small-subject">2024년 3월에 이 글을 남김 | 한혜원</p>
+		</div>
+	</header>
+	<section class="black" id="aaa">
+		<div class="wrap">
+			<img src="1-yanghwabridge.jpeg">
+			<h2>어디냐고 물어보면 <br>항상 양화대교</h2>
+			<div class="row">
+				<div class="col-2">
+					<p>18살 처음으로 미대입시를 접하고 정확하게 1년 만에, 그만두기로 결정했다. 처음엔 게임캐릭터를 그리고 싶어서 무작정 시작했는데… 애니과가 서울에는 많이 없다며, 내 성적이 아깝다며 성적 장학금까지 쥐여주며 디자인 입시로 밀어 넣었던 학원 원장쌤 그리고 흥미도 없는 디자인을 시작한 나에 대한 벌이었던 건지. <br>흥이 다 깨져버렸다.</p>
+				</div>
+				<div class="col-2">
+					<p>뭐, 결국엔 다시 시작해서 이곳에 와있지만 말이다. 그래도 같이 입시를 준비하는 친구들끼리 일산에서 선릉까지 봉고차를 타고 달리다 양화대교쯤에서 항상 블루투스 스피커로 자이언티의 ‘양화대교’를 떼창하던 그 시절은 영원히 기억할 내 인생의 명장면 중 하나이다.</p>
+				</div>
+			</div>
+	</section>
+	<section class="black" id="bbb">
+		<div class="wrap">
+			<img src="2-teacher-bk.png">
+			<h2>안선생님…!!!!!! <br>영화가 하고싶어요….</h2>
+			<p class="right-spacing">대체 그럼 미대말고 뭘 하려고 했나! 영화과였다. 구체적으로 영화를 해야겠다고 생각한 건 아이러니하게도 고3때였는데, 우연한 기회로 인터넷 방송을 하면서 만들어봤던 오디오드라마가 반응이 좋으면서 자신감을 얻었더랬다. 그리고 같은 해에 창비에서 청소년문학집을 내려 전국 중고등학생들의 글을 모으는 중이었는데, 동아리 시간에 썼던 내 시가 실리게 되었다. 자신감이 안드로메다까지 가버린 나는 아주 오만 방자하게 미술입시 중단 선언을 학원 담임쌤께 해버린 것이었다!</p>
+			<p class="text-emphasize">‘선생님, 저 영화과를 준비하고 싶습니다.’</p>
+			<p class="left-spacing">하지만 구체적인 계획은 없었다. 고3 4월에 갑자기 영화 입시를 생각하다니 지금 생각해보면 객기라고 밖에 볼 수 없었다. 심지어 재수는 애초에 생각도 안 했다. 결국 학원 담임쌤의 회유로 팔랑팔랑 같은 학원에 영화과 입시도 ‘함께’ 준비하게 되었다. <br>봉감독님도 박감독님도 영화과 출신은 아니니까~</p>
+		</div>
+	</section>
+	<section class="black" id="ccc">
+		<div class="wrap">
+			<img src="3-macao-bk.png">
+			<h2 class="left-spacing">얘야, 인생이라는 건 원래 자기 생각대로 되지 않는 법이란다.</h2>
+			<p class="left-spacing">당연하게도 원서 6개 중 3개를 영화과에 썼지만, 모두 떨어졌다. 뭐, 3개월 준비해서 붙을 수 있는 거였으면 개나 소나 다 붙었겠지만. 그래도 중앙대 실기 시험을 치러 갔을 때 나왔던 흑백실험영화는 아직까지도 내 뇌리속에 강렬하게 남아있다. 잃은 게 많았지만, 얻은 것도 있었다. 그리고 지금까지 여전히 영화의 꿈을 놓지 못하고 삽질을 하는 중이다.</p>
+		</div>
+	</section>
+	<section id="ddd">
+		<div class="wrap font-white">
+		<img src="alliswell.png">
+			<h2 class="center-spacing">알 이즈 웰!</h2>
+			<p class="center-spacing">예술쟁이의 말로는 모 아니면 도일 것이다. <br>그치만 인생이 마음대로 되는 것이던가? <br>하기로 한 이상 그저 묵묵하게 버텨보는 것이다. <br>인디언식 기우제가 100% 비를 내리게 하는 비법을 아는가? <br>그들은 기우제를 지낼 때 비가 내릴 때까지 매일매일 기우제를 지다고 한다. 언젠가는 되겠지 하고 저질러 보기로 했다. <br>영화 속 세 얼간이들 처럼 저질러 보는 것이다! 알 이즈 웰!</p>
+		</div>
+	</section>
+	<footer>
+		<div class="wrap menuflex font-white">
+			<a href="#top">Back to Forward</a>
+			<p>이정표 없는 항해 일지&copy;2024 한혜원 모든 권리 보유.</p>
+		</div>
+	</footer>
+</body>
+</html>
